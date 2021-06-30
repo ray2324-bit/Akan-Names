@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=New+Rocker&display=swap" rel="stylesheet">
+        <title>AKAN-NAME</title>
+    </head>
+    <body>
+        <center>
+            <b>
+            <h1>THE AKAN NAME!!!</h1>
+            </b>
+        </center>
+          <p>This is a web application designed to figure out your day of birth(in a week)and your Akan name.</p>
+          <p>Akan name is a Ghananian form of naming. In Ghana your name depends on the day of week you were born. A perfect example is professor Kwame Nkurumah(the first president of Ghana) who was born on a saturday 21st september 1909. The name 'kwame' means saturday.</p>
+          <p>Here you will be able to figure out not only your specific day of birth but also your Ghananian Akan name.All you need to do is enter your date of birth and choose your gender. You will then be informed your Akan name!!!</p>
+        
+        <center>
+          <div class="card">
+            <div class="card-body">
+                <form name="myStuff" onsubmit="event.preventDefault(); calculator()">
+                  <div class="right">  
+                    <h2>Gender....</h2>
+                  </div> 
+                      <select name="gender" id="gender">
+                        <option name="male" value="male"><b>Male</b></option>
+                        <option name="female" value="female"><b>Female</b></option>
+                      </select>
+                  <div class="left">  
+                    <h2>Date of birth....</h2>
+                  </div>   
+                        <input name="date" type="date"> <span class="first"><b>Date</b></span><br><br><br>
+                        <input type="submit" value="Submit" href="#alert"></a></input><br>
+                        <p id="alert">AND YOUR ANSWER.....<br><span id="prompt"></span></p>
+                </form>
+            </div><br>
+            <div class="card-footer">
+                <p><b>Thank you for trying out the Akan-name...tell a friend!!!</b></p>`
+            </div>  
+          </div>      
+         
+            
+   
+        </center>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

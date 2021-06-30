@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2015/03/29/649355/e20e2de4835f5e41a9f42dc2c7eef846-700.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'New Rocker', cursive;
+    color: white;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family:'Rye', cursive;
+    font-size: 25px;
+}
+.first{
+    color:white;
+    font-size: 22px;
+    font-family:'Rye', cursive;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+b{
+    color: white;
+    font-size: 25px;
+    font-family:'Rye', cursive;
+}
+.left{
+    color: white;
+    font-size: 30px;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+.right{
+    color: white;
+    font-size: 30px;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+.prompt{
+    font-size: 20px;
+    font-family: 'UnifrakturMaguntia', cursive;
+
+}
